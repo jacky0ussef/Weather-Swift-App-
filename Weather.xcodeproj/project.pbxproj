@@ -13,6 +13,8 @@
 		8A6AF6A8281A022B00451B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6AF696281A022A00451B39 /* ContentView.swift */; };
 		8A6AF6A9281A022B00451B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6AF697281A022B00451B39 /* Assets.xcassets */; };
 		8A6AF6AA281A022B00451B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6AF697281A022B00451B39 /* Assets.xcassets */; };
+		8A6AF6B4281A10BC00451B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6AF6B3281A10BC00451B39 /* Assets.xcassets */; };
+		8A6AF6B6281A159A00451B39 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6AF6B5281A159A00451B39 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8A6AF69C281A022B00451B39 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6AF6A2281A022B00451B39 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6AF6A4281A022B00451B39 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8A6AF6B3281A10BC00451B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A6AF6B5281A159A00451B39 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 		8A6AF68F281A022A00451B39 = {
 			isa = PBXGroup;
 			children = (
+				8A6AF6B3281A10BC00451B39 /* Assets.xcassets */,
 				8A6AF694281A022A00451B39 /* Shared */,
 				8A6AF6A3281A022B00451B39 /* macOS */,
 				8A6AF69D281A022B00451B39 /* Products */,
@@ -57,6 +62,7 @@
 				8A6AF695281A022A00451B39 /* WeatherApp.swift */,
 				8A6AF696281A022A00451B39 /* ContentView.swift */,
 				8A6AF697281A022B00451B39 /* Assets.xcassets */,
+				8A6AF6B5281A159A00451B39 /* WeatherButton.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6AF6B4281A10BC00451B39 /* Assets.xcassets in Resources */,
 				8A6AF6A9281A022B00451B39 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +185,7 @@
 			files = (
 				8A6AF6A7281A022B00451B39 /* ContentView.swift in Sources */,
 				8A6AF6A5281A022B00451B39 /* WeatherApp.swift in Sources */,
+				8A6AF6B6281A159A00451B39 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
